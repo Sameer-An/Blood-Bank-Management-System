@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import axios from 'axios';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://blood-bank-management-83j3.onrender.com/api';
 const ROLES = [
   { value: 'donor',     label: 'Donor' },
   { value: 'recipient', label: 'Find Blood' },
