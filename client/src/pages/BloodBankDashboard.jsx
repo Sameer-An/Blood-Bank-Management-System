@@ -3,7 +3,7 @@ import { useAuth } from '../context/AuthContext';
 import Navbar from '../components/Navbar';
 import axios from 'axios';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://blood-bank-management-83j3.onrender.com/api';
 const BLOOD_GROUPS = ['A+','A-','B+','B-','AB+','AB-','O+','O-'];
 const defaultStock = { 'A+':0,'A-':0,'B+':0,'B-':0,'AB+':0,'AB-':0,'O+':0,'O-':0 };
 
